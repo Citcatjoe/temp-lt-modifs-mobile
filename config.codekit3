@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/article.html.twig": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/article.html.twig",
+		"oF": 0
+		},
 	"\/assets\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -16,6 +22,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/assets\/css\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/modifs-mobile-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/modifs-mobile-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -1573,10 +1589,10 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/indexLT.php": {
+	"\/indexH.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/indexLT.php",
+		"oAP": "\/indexH.php",
 		"oF": 0
 		},
 	"\/json\/data.json": {

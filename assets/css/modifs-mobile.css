@@ -1,8 +1,6 @@
 /* reste à faire:
 - Make image bigger: width: 400px height: 220px in article
 - Add "tags" class to <p> in .article-info
-- Voir si p em display none est ok pour masquer les légendes de video ou si il faut leur dire de stop légender
-- Voir si le "A propose de l'auteur" est ok comme sélecteur h2.text-muted-h3
 - Faire le bouton dans la newsletter box et revoir le fonctionnement
  */
 
@@ -33,6 +31,19 @@
 		display: none;
 	}
 
+	.navbar-header .list-inline li.hidden-affix a
+	{
+		text-align: left;
+		padding: 10px 15px;
+	}
+
+	.navbar-header .list-inline li:last-child .navbar-toggle
+	{
+		text-align: right;
+		padding: 10px 15px;
+	}
+
+	/* VALABLE POUR HOME ET ARTICLE */
 	.article-content.article-content-inset
 	{
 		margin-top: 0;
@@ -42,7 +53,8 @@
 		margin-right: 0;
 	}
 
-	.article-content .label
+	/* h2 = article only */
+	.article-content h2.label
 	{
 		display: none;
 	}
@@ -72,10 +84,10 @@
 
 	/*------------------------------------*/
 
-	.article-content .article_body > .share
+	/*.article-content .article_body > .share
 	{
 		display: none;
-	}
+	}*/
 
 	/*------------------------------------*/
 
@@ -107,10 +119,10 @@
 		content: '— ';
 	}
 
-	.article-content .article_body .body_content p em 
+	/*.article-content .article_body .body_content p em 
 	{
 		display: none;
-	}
+	}*/
 
 	/*
 	text-align: right;
@@ -119,10 +131,10 @@
 
     /*------------------------------------*/
 
-    .article-content h2.text-muted.h3
+   /* .article-content h2.text-muted.h3
     {
     	display: none;
-    }
+    }*/
 
     .article-content aside.author
     {
@@ -210,5 +222,178 @@
 	{
 		display: none;
 	}
+
+	/*------------------------------------*/
+
+	.most-read ol li a
+	{
+		font-size: 14px;
+	}
+
+	.most-read ul.timeline li h4.h5
+	{
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	/*------------------------------------*/
+
+	.alert-paywall
+	{
+		font-size: 60%;
+	}
+
+	.alert-paywall .close
+	{
+		font-size: 25px;
+	}
+
+	/*------------------------------------*/
+	/*------------------------------------*/
+	/*------------------------------------*/
+	/*------------------------------------*/
+	/*------------------------------------*/
+	/*------------------------------------*/
+	/*------------------------------------*/
+	/*
+	-Image homepage big teaser
+	*/
+
+	.article-full-teaser
+	{
+		border-bottom: 1px solid #e4e4e4;
+		margin-bottom: 20px;
+	}
+
+	/*.article-full-teaser .label*/
+	.article-content>.label:first-of-type
+	{
+		    font-size: 65%;
+	}
+
+	.article-full-teaser .picture-cover
+	{
+		margin-left: -15px;
+    	margin-right: -15px;
+	}
+
+	.article-full-teaser .text-muted
+	{
+		display: none;
+	}
+
+	/* ??? selector ?*/
+	.article-full-teaser .h1
+	{
+		font-size: 24px;
+		margin-bottom: 8px;
+	}
+
+	.article-full-teaser .text-serif
+	{
+		font-size: 14px;
+	}
+
+	.article-teaser
+	{
+		border-bottom: 1px solid #e4e4e4;
+		padding-bottom: 15px;
+	}
+
+	/*NOUVEAU FORMAT MINITHUMB*/
+	.article-teaser  .article-figure
+	{
+		width: 90px;
+		max-width: 90px;
+	}
+	
+	/*NOUVEAU FORMAT MINITHUMB*/
+	.article-teaser  .article-figure .picture
+	{
+		width: 90px;
+	}
+	.article-teaser .article-excerpt .label
+	{
+		margin-bottom: 5px;
+	}
+
+	.article-teaser .article-excerpt .small
+	{
+		display: none;
+	}
+
+	.article-teaser .article-excerpt .h2 a
+	{
+		display: block;
+	}
+
+	.article-headliner
+	{
+		border-bottom: 1px solid #e4e4e4;
+		padding-bottom: 15px;
+	}
+
+	.article-headliner .label
+	{
+		margin-bottom: 5px;
+	}
+
+	.article-headliner a
+	{
+		display: block;
+	}
+
+	.article-headliner small
+	{
+		display: none;
+	}
+
+	/*------------------------------------*/
+
+	.promoted-card
+	{
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.promoted-card .promoted-card-content .padded-block
+	{
+		margin: 0;
+		padding: 0 15px 0 15px !important;
+	}
+
+	.promoted-card .promoted-card-content h2
+	{
+		font-size: 24px !important;
+		margin: 10.5px 0 10.5px 0;
+	}
+
+	.promoted-card .promoted-card-content h2 span
+	{
+		font-size: inherit !important;
+	}
+
+	.promoted-card .promoted-card-content .text-serif
+	{
+		display: none;
+	}
+
+	article.chappatte .promoted-card .promoted-card-content .padded-block
+	{
+		margin: 0;
+		padding: 0 15px 30px 15px !important;
+	}
+
+	article.chappatte .promoted-card .label
+	{
+		display: none;
+	}
+
+	article.chappatte .promoted-card .promoted-card-content .chappatte-signature
+	{
+		right: 20px;
+	}
+
+
 
 }

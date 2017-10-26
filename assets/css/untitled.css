@@ -1,0 +1,344 @@
+/* MOBILE CHANGES – OCTOBER 2017 */
+/* Header changes */
+@media screen and (max-width: 992px) {
+    .header-logo img
+    {
+        margin: 0 0 0 -3px;
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-logo img
+    {
+        width: 85px;
+    }
+
+     a.logo-mobile.visible-xs-block.visible-sm-block
+    {
+        transform: translateY(8px);
+    }
+
+    .navbar-header ul li
+    {
+        min-width: 33%;
+    }
+
+    .navbar-header .list-inline li.hidden-affix a
+    {
+        text-align: left;
+        padding: 10px 15px;
+    }
+
+    .navbar-header .list-inline li:last-child .navbar-toggle
+    {
+        text-align: right;
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header-top .list-inline a
+    {
+        font-size: 12px;
+    }
+}
+
+/* HOMEPAGE teasers changes */
+@media screen and (max-width: 767px) {
+    /* big teaser */
+    .article-full-teaser, .tmagazine-full-teaser 
+    {
+        border-bottom: 1px solid #e4e4e4;
+        margin-bottom: 20px;
+    }
+
+    .article-content>.label:first-of-type
+    {
+            font-size: 65%;
+    }
+
+    .article-full-teaser .picture-cover, .tmagazine-full-teaser .picture-cover
+    {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .article-full-teaser .text-muted, .tmagazine-full-teaser .text-muted
+    {
+        display: none;
+    }
+
+    .article-full-teaser .h1, .tmagazine-full-teaser .h1
+    {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .article-full-teaser .text-serif, .tmagazine-full-teaser .text-serif
+    {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    /* medium teaser */
+    .article-teaser
+    {
+        border-bottom: 1px solid #e4e4e4;
+        padding-bottom: 15px;
+    }
+
+    .article-teaser  .article-figure
+    {
+        width: 90px;
+        max-width: 90px;
+    }
+    
+    .article-teaser  .article-figure .picture
+    {
+        width: 90px;
+    }
+
+    .article-teaser .article-excerpt .label
+    {
+        margin-bottom: 5px;
+    }
+
+    .article-teaser .article-excerpt .small
+    {
+        display: none;
+    }
+
+    .article-teaser .article-excerpt .h2 a
+    {
+        display: block;
+    }
+
+    /* small teaser */
+    .article-headliner
+    {
+        border-bottom: 1px solid #e4e4e4;
+        padding-bottom: 15px;
+    }
+
+    .article-headliner .label
+    {
+        margin-bottom: 5px;
+    }
+
+    .article-headliner a
+    {
+        display: block;
+    }
+
+    .article-headliner small
+    {
+        display: none;
+    }
+}
+
+/* HOMEPAGE promoted cards */
+@media screen and (max-width: 767px) {
+    .promoted-card
+    {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .promoted-card .promoted-card-content .padded-block
+    {
+        margin: 0;
+        padding: 0 15px 0 15px !important;
+    }
+
+    .promoted-card .promoted-card-content h2
+    {
+        font-size: 24px !important;
+        margin: 10.5px 0 10.5px 0;
+    }
+
+    .promoted-card .promoted-card-content h2 span
+    {
+        font-size: inherit !important;
+    }
+
+    .promoted-card .promoted-card-content .text-serif
+    {
+        display: none;
+    }
+
+    article.chappatte .promoted-card .promoted-card-content .padded-block
+    {
+        margin: 0;
+        padding: 0 15px 30px 15px !important;
+    }
+
+    article.chappatte .promoted-card .label
+    {
+        display: none;
+    }
+
+    article.chappatte .promoted-card .promoted-card-content .chappatte-signature
+    {
+        right: 20px;
+    }
+}
+
+/* ARTICLE changes */
+@media screen and (max-width: 767px) {
+    .article-content h1
+    {
+        font-size: 24px;
+    }
+
+    article:not(.article-full-teaser) .picture-cover:after
+    {
+        display: none;
+    }
+
+    .article-content h2.label
+    {
+        display: none;
+    }
+
+    .article-content .lead
+    {
+        font-weight: 400;
+        font-size: 18.55px;
+    }
+
+    .article-info .reading-time
+    {
+        display: none;
+    }
+
+    .article-info .tags
+    {
+        display: none;
+    }
+
+    .article-info > p:last-of-type 
+    {
+        padding: 10px 0;
+    }
+
+    .article-content .article_body .body_content .article-media blockquote p
+    {
+        font-weight: 400;
+    }
+
+    .article-content .article_body .body_content .article-media .gallery-item figcaption
+    {
+        font-size: 14px;
+        line-height: 1.3;
+        display: block;
+        text-align: right;
+        color: #6f7072;
+    }
+
+    .article-content .article_body .body_content .article-media .gallery-item figcaption .item-copyright
+    {
+        display: inline;
+        color: #9b9d9e;
+        font-size: inherit;
+        line-height: inherit;
+    }
+
+    .article-content .article_body .body_content .article-media .gallery-item figcaption .item-copyright:before 
+    {
+        content: '— ';
+    }
+
+     .article-content aside.author
+    {
+        border-top: 0;
+        border-bottom: 0;
+    }
+    
+    .article-content aside.author .media-left
+    {
+        padding-right: 15px;
+    }
+
+    .article-content aside.author .media-body .author-social
+    {
+        margin-top: -4px;
+    }   
+
+    .most-read ol li a
+    {
+        font-size: 14px;
+    }
+
+    .most-read ul.timeline li h4.h5
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+/* NEWSLETTER changes */
+@media screen and (max-width: 767px) {
+    .nl-subscription-container
+    {
+        width: auto;
+        box-shadow: none;
+        border: 0;
+        background-color: #f0f0f0;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 50px;
+    }
+
+    .nl-subscription-container .form-group input
+    {
+        border: 2px solid #bcbcbc;
+        height: 2.5pc;
+    }
+
+    .nl-subscription-container .nl-subscription-box-wrapper .nl-subscription-box .nl_thumb
+    {
+        display: none;
+    }
+
+    .nl-subscription-container .nl-subscription-box-wrapper .nl-subscription-box .nl-subscription-box-header
+    {
+        display: inline;
+        float: left;
+        
+    }
+
+    .nl-subscription-container .nl-subscription-box-wrapper .nl-subscription-box .nl-subscription-box-header .newsletter-title
+    {
+        font-size: 16.15px;
+        line-height: 1.44;
+        margin-bottom: 0;
+        font-family:'Rooney';
+        color: black;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .nl-subscription-container .nl-subscription-box-wrapper .nl-subscription-box .nl-subscription-box-header .newsletter-title:after
+    {
+        font-size: 16.15px;
+        line-height: 1.44;
+        margin-bottom: 0;
+        font-family:'Rooney';
+        color: black;
+        text-transform: uppercase;
+        font-weight: 600;
+        content: '. ';
+    }
+
+    .nl-subscription-container .nl-subscription-box-wrapper .nl-subscription-box .newsletter-description
+    {
+        display: inline;
+    }
+
+    .nl-subscription-container .nl-subscription-box-wrapper .nl-subscription-box .nl-subscription-box-footer
+    {
+        
+    }

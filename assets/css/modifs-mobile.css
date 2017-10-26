@@ -1,7 +1,6 @@
 /* reste à faire:
-- Make image bigger: width: 400px height: 220px in article
-- Add "tags" class to <p> in .article-info
 - Faire le bouton dans la newsletter box et revoir le fonctionnement
+article infos p last of type ????
  */
 
 @media screen and (max-width: 767px) {
@@ -96,7 +95,6 @@
 		font-weight: 400;
 	}
 
-	/*.article-content .article_body .body_content .article-media picture figcaption*/
 	.article-content .article_body .body_content .article-media .gallery-item figcaption
 	{
 		font-size: 14px;
